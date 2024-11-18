@@ -1,11 +1,27 @@
+@font-face {
+    font-family: Ced-Regular;
+    src: url(Ced-Regular.otf);
+  }
+
 body {
-    font-family: Poppins;
+    font-family: Switzer;
+    font-size: 12px;
+    color: lightgrey;
+    background-color: rgb(31, 31, 31);
 }
 
 .dagelijks {
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(38, 38, 38);
     padding: 20px;
     width: 80%;
     margin: 20px;
     border-radius: 12px;
+    border: 1px solid rgb(68, 68, 68);
+}
+
+.ownfont {
+    font-family: Ced-Regular;
+    letter-spacing: .5em;
+    line-height: 2em;
+    font-size: 1em;
 }
